@@ -17,6 +17,7 @@
 :root{
   --main: #0b48ed;
   --main-dark: #1137ca;
+  --grey: #ffffff81;
 }
 
 *{
@@ -165,7 +166,7 @@ canvas{
   font-weight: 100;
   line-height: 1.3;
 
-  color: #ffffff81;
+  color: var(--grey);
 }
 
 
@@ -181,6 +182,7 @@ canvas{
 /*----------------------------------------------------page4----------------------------------------------------*/
 
 #page4{
+  z-index: 2;
   display: flex;
   align-items: start;
   justify-content: center;
@@ -197,7 +199,7 @@ canvas{
   width: 70%;
   font-size: 3vw;
   font-weight: 100;
-  color: #ffffff81;
+  color: var(--grey);
 }
 
 
@@ -220,6 +222,62 @@ canvas{
 #page6>h1{
   margin-left: 15vw;
   font-size: 3vw;
+  font-weight: 100;
   width: 70%;
+  color: var(--grey);
 }
 
+/*----------------------------------------------------page7----------------------------------------------------*/
+
+.page7-cir{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  width: 25vw;
+  height: 25vw;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+.page7-cir-inner{
+  height: 70%;
+  width: 70%;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+
+/*----------------------------------------------------page8--------------------------------------------------------*/
+
+#page8>video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page8-bottom{
+  position: absolute;
+  z-index: 2;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.page8-bottom>h1{
+  font-weight: 100;
+  margin: 2vw;
+  font-size: 4vw;
+}
+
+.page8-bottom>button{
+  padding: 20px 30px;
+  background-color: #fff;
+  color: var(--main)
+}
