@@ -45,6 +45,12 @@ button{
   border: none;
 }
 
+canvas{
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
 .main-btn{
   font-family: "KFO-B";
   padding: 10px 20px;
@@ -58,6 +64,7 @@ button{
 #main{
   position:  relative;
   overflow:  hidden;
+  will-change: transform;
 }
 
 #page1{
@@ -158,7 +165,7 @@ button{
   font-weight: 100;
   line-height: 1.3;
 
-  color: lightgrey;
+  color: #ffffff81;
 }
 
 
@@ -168,12 +175,6 @@ button{
   position: relative;
   height: 100vh;
   width: 100vw;
-}
-
-#page3>canvas{
-  max-width: 100vw;
-  max-height: 100vh;
-  position: relative;
 }
 
 
@@ -196,4 +197,29 @@ button{
   width: 70%;
   font-size: 3vw;
   font-weight: 100;
+  color: #ffffff81;
 }
+
+
+/*----------------------------------------------------page6--------------------------------------------------------*/
+
+#page6{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#page6>h3{
+  margin-left: 15vw;
+  font-weight: 100;
+  color: #fff;
+  margin-bottom: 2vw;
+}
+
+#page6>h1{
+  margin-left: 15vw;
+  font-size: 3vw;
+  width: 70%;
+}
+
