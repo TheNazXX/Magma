@@ -281,3 +281,136 @@ canvas{
   background-color: #fff;
   color: var(--main)
 }
+
+/*----------------------------------------------------page9--------------------------------------------------------*/
+
+#page9{
+  display: flex;
+}
+
+.page9-left{
+  position:  relative;
+  width: 40%;
+  height: 100%;
+}
+
+.page9-left>h1{
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  font-size: 5vw;
+  font-weight: 100;
+  color: #fff;
+  line-height: 1;
+}
+
+.page9-right{
+  position: relative;
+  width: 60%;
+  height: 100%;
+}
+
+.page9-right-center{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 85%;
+  height: 50%;
+  left: 5%;
+  border-radius: 10px;
+  background-image: url("https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg");
+  background-size: cover;
+}
+
+
+
+/*----------------------------------------------------page10--------------------------------------------------------*/
+
+.page10-right{
+  height: 100%;
+  width: 60%;
+  position: relative;
+  left: 40%;
+}
+
+.page10-right-inner{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  height: 33.3%;
+}
+
+.page10-right-inner>h1{
+  font-size: 2vw;
+  font-weight: 100;
+}
+
+.page10-right-inner>p{
+  margin-top: 2vw;
+  font-size: 1.3vw;
+  width: 80%;
+  font-weight: 100;
+}
+
+/*----------------------------------------------------page10--------------------------------------------------------*/
+#page11{ 
+  background-color: white;
+  height: 110vh;
+}
+
+#page11>h1{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size: 4vw;
+  color: #000;
+  font-weight: 100;
+}
+
+.page11-inner{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 18%;
+  margin-bottom: 2vw;
+  height: 25%;
+  width: 100%;
+}
+
+.page11-inner-left{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 5%;
+  height: 100%;
+  width: 40%;
+}
+
+.page11-inner-left>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.page11-inner-right{
+  padding-top: 5vw;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 50%;
+
+  color: #000;
+}
+
+.page11-inner-right>h1{
+ font-size: 2vw;
+}
+
+.page11-inner-right>h4{
+  font-weight: 100;
+}
+
+
