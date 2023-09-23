@@ -410,6 +410,19 @@ function createCanvasImages(canvas, arrayImages, trigger){
     },
     backgroundColor: "#0a3bce91"
   })
+
+  gsap.to(".page7-cir", {
+    scrollTrigger: {
+      trigger: ".page7-cir",
+      start: "top center",
+      end: "bottom top",
+      scroller: "#main",
+      scrub: .5
+    },
+    scale: 1.75,
+  });
+
+  
 })();
 
 (function TransformTextColor(){
