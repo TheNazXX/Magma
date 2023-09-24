@@ -224,7 +224,7 @@ canvas{
 
 #page3{
   position: relative;
-  height: 100vh;
+  height: 1080px;
   width: 100vw;
 }
 
@@ -237,6 +237,7 @@ canvas{
   align-items: start;
   justify-content: center;
   flex-direction: column;
+
 }
 
 #page4>h3{
@@ -616,4 +617,11 @@ canvas{
   width: 3vw;
   height: 3vw;
   transition: all .4s;
+}
+
+
+@media(max-width: 560px){
+  #page3, #page5, #page7{
+    display: none;
+  }
 }
